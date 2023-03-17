@@ -13,7 +13,7 @@ public class ProgramAltura {
 		System.out.print("Quantas pessoas serao digitadas? ");
 		int n = sc.nextInt();
 		
-		String[] name = new String[n];
+		String[] nome = new String[n];
 		int[] idade = new int[n];
 		double[] altura = new double[n];
 		
@@ -24,7 +24,7 @@ public class ProgramAltura {
 			System.out.println("Dados da " + (i+1) + "a pessoa: ");
 			sc.nextLine();
 			System.out.print("Nome: ");
-			name[i] = sc.nextLine();
+			nome[i] = sc.nextLine();
 			System.out.print("Idade: ");
 			idade[i] = sc.nextInt();
 			System.out.print("Altura: ");
@@ -35,7 +35,7 @@ public class ProgramAltura {
 				
 		double alturaMedia = somaAltura / n;
 		
-		System.out.printf("\nAltura média: %.2f%n", alturaMedia);
+		System.out.printf("\nAltura mï¿½dia: %.2f%n", alturaMedia);
 		
 		int soma = 0;
 		for(int i = 0; i < n; i++) {
@@ -48,7 +48,7 @@ public class ProgramAltura {
 		
 		for(int i = 0; i < n; i++) {
 			if (idade[i] < 16) {
-				System.out.println(name[i]);
+				System.out.println(nome[i]);
 			}
 		}
 		
