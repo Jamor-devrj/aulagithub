@@ -3,7 +3,7 @@ package exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ProgramSomaVetor {
+public class ProgramSoma {
 
 	public static void main(String[] args) {
 		
@@ -23,7 +23,7 @@ public class ProgramSomaVetor {
 			soma += vet[i];
 		}			
 		
-		System.out.printf("\nSOMA = %.2f%n", soma);
+		System.out.printf("\nSOMA TOTAL = %.2f%n", soma);
 					
 		sc.close();
 	}
